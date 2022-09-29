@@ -7,7 +7,7 @@
 <li *ngFor="let item of listOfNumbers">{{item}}</li>
 
 <li *ngFor="let name of listOfNames">{{name}}</li>
-<input type="text" [(ngModel)]="number1"> 
-<input type="text" [(ngModel)]="number2"> 
+<input type="number" [(ngModel)]="number1"> 
+<input type="number" [(ngModel)]="number2"> 
 <button (click)="Addition()">Add</button>
 <h1>{{result}}</h1>
